@@ -1,0 +1,551 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(1, 49, 23);
+}
+ul{
+    list-style: none;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    color: rgb(248, 170, 81);
+    box-sizing: border-box;
+    font-weight: bold;
+}
+header a:hover {
+    color: rgb(243, 243, 208);
+}
+.body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header.logo{
+    margin:0;
+    padding: 25px 30px;
+}
+
+.nombre-empresa {
+    background: linear-gradient(green, rgb (243,243,208) )
+}
+header .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+header nav{
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    padding-bottom:25px;
+}
+h1{ 
+    font-size: 2rem;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:rgb(236, 204, 161);
+    font-weight:lighter;
+}
+.form-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:rgb(236, 204, 161);
+}
+.index{
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*          -----        HEADER        -----       */
+.hijo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    margin: 0 auto;      
+}
+.df-ul{
+    display:flex;
+    text-decoration: none;
+    padding:20px;
+}
+.logo{
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+}
+.df-ul{
+    display:flex;
+    color:rgb(136, 245, 136);
+    justify-content:center;
+    align-items:center;
+    list-style-type: style none;
+}
+.df-ul li{
+ margin:0px;
+ padding: 10px;
+ text-align: center;
+ list-style: none;
+ overflow:hidden;
+ border-style:none;
+}
+
+
+/*`````````` BODY````````*/
+.nombre-empresa{
+    margin:auto;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    background-color:rgb(28, 97, 34);
+    height: 70px;
+    text-align:center;
+}
+.descripcion{
+    font-size: 20px;
+    text-align:center;
+    color: rgb(96, 212, 96);
+    letter-spacing: 5px;
+}
+.contenedor{
+    display:grid;
+    grid-template-columns: 1fr,1fr, 2fr;
+    grid-template-rows:1fr 2fr 2fr;
+    grid-template-areas: 'hijo hijo hijo',
+     "df.main",
+    'df.footer df-footer df.footer';
+    gap:10px;
+    padding:10px;
+    
+}
+
+/*`````FIN BODY``````*/
+/*````` espacio general p/config. GRIDS ``````*/
+.hijo{
+    display:inline-block;
+    grid-column: 1/span 3;
+    padding: 3px; 
+    margin:20px auto;
+}
+.df-main{
+    height:100px;
+    margin: 12em auto;
+    grid-column: 1/ 4;
+    
+}
+.df-footer{
+    display: block;
+    height:3px;
+    margin: 12em auto;
+    grid-column: 1/span 3;
+    justify-items: space-around;
+    width: 100%;
+    align-items: center;
+    position:absolute relative;
+}
+/*```````MAIN````````*/
+.card1{
+    width: 250px;
+    border-radius:10px;
+    margin:20px;
+    align-content: center;
+}
+.card1:hover{
+    transform: scale(0.5);
+    transition: all 1s ease;
+}
+.card2{
+    width: 250px;
+    border-radius:10px;
+    margin:20px;
+    align-content: center;
+}
+.card2:hover{
+    transform: scale(0.5);
+    transition: all 1s ease;
+}
+/*``````inicio FLEXBOX MAIN``````*/
+.df-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+/*``````fin FLEX MAIN`````*/
+
+.enviar{
+    background-color: rgb(248, 170, 81);
+    border-radius: 15px;
+}
+
+
+/*``````` FIN MAIN````````*/
+
+/*````````FOOTER`````````*/
+
+ .df-footer{
+     font-style: bold, sans-serif;
+     font-size: 20px;
+     }
+ .direccion{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 900;
+     }
+/*FIN FOOTER*/
+
+
+/* ```````````INICIO membresia.html````````````*/
+ .membresia-be{
+     color: rgb(248, 170, 81);
+     font-size: 10px;
+     text-align: center;
+     }
+ .contactofieldset{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 15px;
+     color:rgb(236, 204, 161);
+     font-weight:lighter;
+     }
+ .container-membresia{
+     display: grid;
+     grid-template-areas: ".membresia-Be";
+     grid-template-columns: 1fr 3fr 1fr;
+     grid-template-rows: repeat(1/3);
+     grid-column: 1/3;
+     padding: 30px;
+     margin: 20px auto;
+     height: 100px;
+     text-align: center;
+     align-items: center;
+     }
+    .container-membresia{
+     display: flex;
+     align-items: center;
+     border: box 1px;
+     box-sizing:content-box;
+      }
+    .bedi{
+     display:grid; 
+     margin:4px auto;
+     padding:5px;
+     text-align:center;
+     }
+    .caja-contacto{
+     display:grid;
+     grid-area: 'contactofieldset';
+     grid-template-columns: 1fr 3fr 1fr;
+     grid-template-rows: 2fr auto;
+     }
+
+    .tratoria{
+       width: 500px 650px;
+       height: 50%;
+       align-items: center;
+     }
+
+   .dejanos-datos:{
+    color:rgb(248, 170, 81);
+    font-size:40px;
+    font-size:15px;
+    line-height:1.5;
+    }
+
+     .container-general-membresia{
+      min-width: 171px;
+      height: auto;
+      position: relative;
+     }
+     .caja-contacto{
+      background-color:antiquewhite;
+      width: 320px;
+      padding: 10px;
+      border: 5px solid gray;
+      margin: 0;
+     }
+   .caja-contacto{
+      background-color: hsl(34, 78%, 91%);
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      vertical-align: baseline;
+      background: transparent;
+     }
+
+/*```````````````FIN membresia.html``````*/
+
+/*`````````INICIO menu.html`````````*/
+.button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 32px 16px; 
+    border-bottom: rgb(248, 170, 81);
+    background-color:  rgb(248,170,81);
+    border:none;
+    font-size: 30px;
+    align-items: center;
+    border-radius: 2px;
+        /*``` en html iria link a pdf````*/
+    }
+
+    .button {
+        transition-duration: 0.4s;
+      }
+      
+      .button:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+      }
+    
+    .button{
+        display: grid;
+        grid-template-areas: ".button";
+        grid-template-columns:3fr 3fr;
+        grid-template-rows: 1fr 2fr 2fr ;
+        grid-column: 2 3;
+        align-content: center;
+        align-items: center;
+    }
+     .button{
+        display: flex;
+        align-content: center;
+     }
+     .receta{
+        text-align: center justify;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    
+     
+     .boxvideo{
+       box-sizing: border-box;
+       align-content: center;
+     }
+     
+
+
+
+
+
+/*`````````FIN menu.html ```````````*/
+
+/*````````` INICIO hacetupedido.html``````*/
+.pedilo{
+    font-size: 6rem;
+}
+.caja-pedir{
+    font-size: 4rem;
+    text-align:center;
+    justify-content:space-evenly;
+    font-family:Georgia, 'Times New Roman', Times,  serif;
+    text-decoration:dashed;
+}
+.caja-pedir{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.button-pedir{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 36px;
+        border-radius: 12px;
+}
+.button-pedir{
+    transition-duration: 0,4s;
+}
+.button-pedir:hover{
+    background-color: rgb(248, 170, 81);
+    color: white;
+   }
+.animate__pulse{
+    /*agregar animacion de animate.css*/
+}
+
+/*````````` FIN hacetupedido.html`````````*/
+
+/*```````````INICIO trabajaconnosotros.html`````*/
+.feliz{
+    box-sizing:32PX 16PX;
+    border: 2px solid;
+    
+}
+.trabajacn{
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.trabajacn{
+    background-color: rgb(61, 223, 123);
+    font-size: 2rem;
+    font-style:oblique;
+    text-align: center;
+}
+.form-contacto{
+    display:grid;
+    box-sizing:border-box;
+    grid-template-areas: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    width:100%;
+    height: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+}
+
+/*```````````FIN trabajaconnosotros.html``````*/
+
+/*````````INICIO reserva.html````````*/
+.reserva{
+    display:flex;
+    flex-direction: column;
+    font-size: 3rem;
+    text-align:center;
+    padding:20px;
+    margin: 0 auto;
+}
+
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    border-radius: 12px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+}
+/*````````` FIN reserva.html`````````*/
+/*``````` MEDIA QUERIES para todos los HTML`````*/ 
+
+@media only screen and (max-width: 748px){
+   
+    .contenedor-mediaqueries{
+      
+       
+        color:rgb(10, 230, 230);
+        margin: 20px auto;
+        width: 50%
+    }
+     header .hijo{
+        display:flex;
+        flex-direction:column;
+        width: 50%;
+    }
+    h1{
+        padding: 20px;
+    }
+    ul nav{
+        display:flex;
+        flex-direction: column;
+        padding-bottom: 0;
+        padding-right: 20px;
+        color:black;
+        font-weight: bold;
+    }
+    .df-ul{
+        display: flex;
+        flex-direction: column-reverse;
+        color:none;
+        text-decoration:none;
+    }
+    div.contenedor{
+        display:grid;
+        align-items: center;
+        width: 50%;
+    }
+    .logo{
+        flex-direction:column-reverse;
+    }
+    div{
+        display:flex;
+        flex-direction:row-reverse;
+    }
+    .df-main{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    p .nombre-empresa{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    p.descripcion{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div .contacto-membresia{
+        display:flex;
+        flex-direction:column;
+        margin:25px;
+        padding: 20px;
+    }
+
+@media (min-width: 1200px) {
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    
+    .contenedor-mediaqueries{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .df-main{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    footer{
+        justify-content: flex-end;
+    }
+}
+
+
+/*````` fin media queries````*/
