@@ -78,6 +78,12 @@ h2{
     text-decoration: none;
     padding:20px;
 }
+.padre {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .logo{
     align-items: center;
     display:flex;
@@ -117,10 +123,11 @@ h2{
 }
 .contenedor{
     display:grid;
-    grid-template-columns: 1fr,1fr, 2fr;
-    grid-template-rows:1fr 2fr 2fr;
-    grid-template-areas: 'hijo hijo hijo',
-     "df.main",
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr 2fr;
+    
+    grid-template-areas: 'hijo hijo hijo'
+     "df.main"
     'df.footer df-footer df.footer';
     gap:10px;
     padding:10px;
@@ -131,21 +138,25 @@ h2{
 /*````` espacio general p/config. GRIDS ``````*/
 .hijo{
     display:inline-block;
-    grid-column: 1/span 3;
+   
     padding: 3px; 
     margin:20px auto;
 }
 .df-main{
+    
     height:100px;
     margin: 12em auto;
-    grid-column: 1/ 4;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: stretch;
+   
     
 }
 .df-footer{
     display: block;
     height:3px;
     margin: 12em auto;
-    grid-column: 1/span 3;
+
     justify-items: space-around;
     width: 100%;
     align-items: center;
@@ -219,10 +230,7 @@ h2{
      font-weight:lighter;
      }
  .container-membresia{
-     display: grid;
-     grid-template-areas: ".membresia-Be";
- 
-     grid-template-rows: repeat(1/3);
+    
      padding: 30px;
      margin: 20px auto;
      height: 100px;
@@ -298,7 +306,8 @@ h2{
         /*``` en html iria link a pdf````*/
     }
 
-    .button {
+    .button:hover {
+        color: black;
         transition-duration: 0.4s;
       }
       
@@ -310,9 +319,7 @@ h2{
     .button{
         display: grid;
         grid-template-areas: ".button";
-        grid-template-columns:3fr 3fr;
-        grid-template-rows: 1fr 2fr 2fr ;
-        grid-column: 2 3;
+        margin:10px;
         align-content: center;
         align-items: center;
     }
@@ -444,10 +451,12 @@ h2{
    
     .contenedor-mediaqueries{
       
-       
+        display: grid;
+        grid-column:row-reverse;
+        grid-template-columns: 4fr;
         color:rgb(10, 230, 230);
         margin: 20px auto;
-        width: 50%
+        width: 100%
     }
      header .hijo{
         display:flex;
@@ -511,6 +520,7 @@ h2{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     div .contacto-membresia{
@@ -529,11 +539,12 @@ h2{
     }
     
     .contenedor-mediaqueries{
+        align-items: center;
         flex-direction: row;
         justify-content: space-between;
     }
     .df-main{
-        width: 50%;
+        width: 100%;
         max-width: 600px;
         text-align: initial;
         padding-left: 30px;
