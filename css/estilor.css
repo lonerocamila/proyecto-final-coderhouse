@@ -149,7 +149,6 @@ h2{
     flex-wrap: nowrap;
     align-items: stretch;
     align-content: stretch;
-   
     
 }
 .df-footer{
@@ -446,9 +445,13 @@ h2{
 }
 /*````````` FIN reserva.html`````````*/
 /*``````` MEDIA QUERIES para todos los HTML`````*/ 
-
+@include (sm) {
+    .navbar bg-dark fixed-top
+    
+    }
+  
 @media only screen and (max-width: 748px){
-   
+    
     .contenedor-mediaqueries{
       
         display: grid;
@@ -531,6 +534,7 @@ h2{
     }
 
 @media (min-width: 1200px) {
+  
 
     header nav{
         flex-direction: row;
