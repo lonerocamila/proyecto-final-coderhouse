@@ -3,7 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(1, 49, 23);
+}
+body{
+	background: url(https://w.wallhaven.cc/full/q2/wallhaven-q2d2xd.jpg)   no-repeat ;
+    background-position: center center no-repeat;
+	background-size:cover;
+	height:100px;
+	width: 100%;
+	position: absolute;
+	left:0;
+	top:0;
 }
 ul{
     list-style: none;
@@ -445,10 +454,6 @@ h2{
 }
 /*````````` FIN reserva.html`````````*/
 /*``````` MEDIA QUERIES para todos los HTML`````*/ 
-@include (sm) {
-    .navbar bg-dark fixed-top
-    
-    }
   
 @media only screen and (max-width: 748px){
     

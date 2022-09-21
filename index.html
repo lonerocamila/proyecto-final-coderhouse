@@ -14,6 +14,9 @@
 </head>
  
     <body class="tipografia">
+      <div class="background">
+        <img class="background"src="https://w.wallhaven.cc/full/q2/wallhaven-q2d2xd.jpg" alt="imgen de fondo">
+    
          <div class="contenedor-mediaqueries">
             
       <!-- inicio contenedor padre  -->
@@ -71,22 +74,27 @@
             <div class="logo">
              <img src="./img/android-chrome-192x192.png" width="90x90" alt="logo Di como">
    
-    <div class="nombre-empresa">
+    <div class="nombre-empresa mb-2">
         <p class="nombre-empresap">
             Di como
         </p>
      <p class="descripcion"> Acompaña  nuestras pastas con una sonrisa <p>
     <section class="sectionGrid">
     </div>
-        <!-- inicio section -->
-    <div class="card1">
-        <img src="https://media.istockphoto.com/photos/pasta-plate-picture-id632439546?k=20&m=632439546&s=612x612&w=0&h=pkj0ywccJNs8YChKc188E_sIxeO_ENpF0dnvQkQOBqo=" width="400x350" alt=img-ilustrativa1>
-    </div>
-     <div class="card2">
-        <img src="https://cdn.pixabay.com/photo/2019/07/01/17/17/flour-4310465__480.jpg" alt="img-ilustrativa" width="400x350">
-     </div>
-    </section>
-    <!---fin section-->
+  </div>
+        <!-- INICIO carrousel  -->
+        <!---REDIMENSIONAR IMG-->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src= "./img/plato1.jfif" class="d-block w-800" alt="img-ilustrativa">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/plato-pasta.jfif" class="d-block w-600" alt="img-ilustrativa2">
+              </div>
+            </div>
+          </div>
+        <!---FIN carrousel-->
      </main>
      <!--fin main-->
 
@@ -109,10 +117,10 @@
         
          </footer>
      </div>
-
+     <!--- INICIO JS de fontawesome-->
          <script src="https://kit.fontawesome.com/a590067424.js" crossorigin="anonymous"></script>
         
-        
+     <!--FIN JS de fontawesome-->   
       <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>  
     
