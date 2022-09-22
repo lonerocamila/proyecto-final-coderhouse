@@ -36,6 +36,7 @@ header.logo{
     padding: 25px 30px;
 }
 
+
 .nombre-empresa {
     display: grid;
     box-sizing:border-box;
@@ -48,6 +49,7 @@ header .contenedor{
 }
 
 header nav{
+    color: rgb(228, 224, 28);
     display: flex;
     flex-direction:column;
     text-align:center;
@@ -160,16 +162,7 @@ h2{
     align-content: stretch;
     
 }
-.df-footer{
-    display: block;
-    height:3px;
-    margin: 12em auto;
 
-    justify-items: space-around;
-    width: 100%;
-    align-items: center;
-    position:absolute relative;
-}
 /*```````MAIN````````*/
 .card1{
     width: 250px;
@@ -211,17 +204,21 @@ h2{
 
 /*````````FOOTER`````````*/
 
- .df-footer{
-     font-style: bold, sans-serif;
-     font-size: 20px;
-     }
- .direccion{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     font-family: 'Roboto', sans-serif;
-     font-weight: 900;
-     }
+.df-footer{
+    color:hwb(52 88% 0%);
+    background-color: #606C38;
+    width: 100%;
+    padding: 10px;
+    
+    margin:auto;
+
+   
+}
+img, svg {
+    vertical-align: middle;
+    height: 70px;
+}
+
 /*FIN FOOTER*/
 
 
