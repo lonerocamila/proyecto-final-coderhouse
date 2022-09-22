@@ -4,37 +4,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-.tipografiaindex{
-	background: url(https://w.wallhaven.cc/full/q2/wallhaven-q2d2xd.jpg)   no-repeat ;
-    background-position: center center no-repeat;
-	background-size:cover;
-	height:100px;
-	width: 100%;
-	position: absolute;
-	left:0;
-	top:0;
-}
+
 ul{
     list-style: none;
+}
+
+.tipografiaindex{
+background: url(https://w.wallhaven.cc/full/q2/wallhaven-q2d2xd.jpg) no-repeat;
+background-position: center middle no-repeat;
+position: block;
+background-size: cover;
+height:80px;
+width: 100%;
+position: absolute;
+left:0;
+top:0;
 }
 header a{
     padding: 5px 12px;
     text-decoration: none;
-    color: rgb(248, 170, 81);
+    color: rgb(194, 103, 13);
     box-sizing: border-box;
     font-weight: bold;
 }
 header a:hover {
-    color: rgb(243, 243, 208);
+    color: rgb(236, 236, 22);
 }
 .body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header.logo{
-    margin:0;
-    padding: 25px 30px;
-}
+
 
 
 .nombre-empresa {
@@ -49,7 +49,7 @@ header .contenedor{
 }
 
 header nav{
-    color: rgb(228, 224, 28);
+    color: rgb(58, 57, 19);
     display: flex;
     flex-direction:column;
     text-align:center;
@@ -80,11 +80,12 @@ h2{
     flex-direction: row;
     justify-content: space-between;
     text-decoration: none;
-    color: #fff;
+    color: rgb(128, 136, 20);
     padding: 15px;
     margin: 0 auto;      
 }
 .df-ul{
+    color:#4CAF50;
     display:flex;
     text-decoration: none;
     padding:20px;
@@ -96,9 +97,15 @@ h2{
     align-items: center;
 }
 .logo{
+    display:flex;    
+    justify-items: center;
+    align-content: center;
+    height: 9px;
+    width: 40px;
     align-items: center;
-    display:flex;
-    flex-direction: row;
+    display:grid;
+    grid-template-columns: repeat (2, 1fr);
+    justify-content: center;
 }
 .df-ul{
     display:flex;
