@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilor.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>trabaja con nostros</title>
 </head>
-<div class="contenedor-mediaqueries"></div>
+<div class="contenedor-mediaqueries">
 <body class="tipografia">
     <!-- inicio contenedor padre  -->
     <div class="contenedor">
@@ -59,27 +60,53 @@
     <!----- fin header  ------>
       <!-- inicio section -->
       <!----comienzo main-->
-      <main class="df.main">
+      <main class="container-sm bg: green; container-md; container-lg" >
       <div class="feliz">
        <h2 class="trabajacn"> Trabaja muy feliz con nosotros </h2>
       </div>
-      
-         <form> 
-           <div class="form-contacto">
             <h2> Dejanos tu contacto </h2>
             <fieldset>
-            <legend>
-            <label for="mail">mail</label>
-           </legend>
-            <input type="mail">
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="firstName" class="form-label"> Nombre </label>
+                  <input type="text" class="form-control" id="firstName" requiered>
+                </div>
+                <div class="col-md-6">
+                  <label for="lastName" class="form-label"> Apellido </label>
+                  <input type="text" class="form-control" id="lastName" requiered>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <label for="emailInfo" class="form-label"> E-mail </label>
+                <input type="email" class="form-control" id="emailInfo" required>
+              </div>
+              <div class="col-md-4 flex">
+                 <label for="phoneNumber" class="form-label">Telefono</label>
+                 <input type="text" clas="form-control" id="phoneNumber" placeholder="+54 11 73627893">
+              </div>
+        
            </fieldset>
           </form>
       </div>
           <br>
-          <hr>
     </div>
       </main>
-    <footer class="df-footer">
+    <footer class="container-fluid; md-lg-9; df-footer ">
+        <div class="grupo-1">
+          <div class="container">\
+            <figure>
+              <a href="#">
+                <img src="./img/android-chrome-192x192.png" alt="Logo de Di Como">
+              </a>
+            </figure>
+
+          </div>
+          <div class="container">
+            <h2>SOBRE NOSOTROS</h2>
+            <
+              
+          </div>
+        </div>
         <p class="direccion">
          Cabello 2234, Barrio Recoleta, Buenos Aires 
          </p>
@@ -96,7 +123,7 @@
              <p>
          </footer>
          <script src="https://kit.fontawesome.com/a590067424.js" crossorigin="anonymous"></script>
-    
+        </div>
 </body>
 </div>
 </html>
