@@ -61,28 +61,36 @@
       <!-- inicio section -->
       <!----comienzo main-->
   <main>
-    <section class="reserva">
-    <h1>Reserva</h1>
+    <section class="reserva ">
+    <h1 class="display-3">Reserva</h1>
     </section>
-    <form action="form-reserva">
+    <div class="col-md-2 col-sm-4">
+    <form action="form">
     <div class="button">
-    <button class="button"> hacer mi reserva </button> 
-    </form>
-   <!-- COMO HAGO PARA HACER UN LINK?-->
-    <div class="form-reserva">
-    <form>
+      <button type="button" class="btn">Hacer Mi Reserva</button>
+    </div>  
+   <!-- El botton de hacer mi reserva deberia conducir al formulario, como se hace?-->
+  <!---hay algo que me traba para poder centrar el formulario, que-->
+    <div class="form-reserva"> 
+    <form class="row">
+      <div class="col-m">
+       <label for="reserva" class="form-label"> Fecha </label>
+           <input type="date" class="form-control" id="date" requiered> 
+      </div>
+      <div class="col-md-8">
+        <label for="firstName" class="form-label"> Nombre </label>
+        <input type="text" class="form-control" id="firstName" requiered>
+      </div>
+      <div class="col-md-8 col-sm-3">
+        <label for="lastName" class="form-label"> Apellido </label>
+        <input type="text" class="form-control" id="lastName" requiered>
+      </div>
         <fieldset> 
-           <legend>reserva aqui</legend>
-           <label for="reserva"> fecha</label>
-           <input type="date"> 
-           <label for="name"> nombre </label>
-           <input type="text">
-           <label for="last name">Apellido</label>
-           <input type="last"> 
-        </fieldset>
     </form>
     </div>
      </div>
+     <button type="input-button" class="btn btn-outline-success">Enviar</button>
+    </div>
     </main>
     <!---Fin main-->
 
