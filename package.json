@@ -1,0 +1,22 @@
+{
+  "name": "idea-lo-nero-html-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass--include-path scss scss/style.scss css/main.css",
+     "watch-css”: “nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lonerocamila/Segunda-entrega-TPF.git"
+  },
+  "author": "Camila Lo Nero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lonerocamila/Segunda-entrega-TPF/issues"
+  },
+  "homepage": "https://github.com/lonerocamila/Segunda-entrega-TPF#readme",
+  "description": ""
+}
