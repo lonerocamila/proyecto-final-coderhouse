@@ -1,14 +1,20 @@
 header {
+    background-color: $primarycolor;
+    display:flex;
+    gap: 20px;
+    grid-gap: 20px;
+
      .menu{
-
+        color: $secondarycolor;
      }
-         .navbar{
+     .logo{
+        width: 100px;   
+    }
+         .nav{
              color: rgb(58, 57, 19);
-             display: flex;
-             flex-direction:column;
              text-align:center;
+             align-items: center;
              padding-bottom:25px;
-
              }
     
     
@@ -18,19 +24,9 @@ header {
                  color: rgb(194, 103, 13);
                  box-sizing: border-box;
                  font-weight: bold;
-}
+                }
 
 
-   .logo{
-       display:flex;    
-       justify-items: center;
-       align-content: center;
-       height: 9px;
-       width: 40px;
-       align-items: center;
-       display:grid;
-       grid-template-columns: repeat (2, 1fr);
-       justify-content: center;
-   }
+  
    
 }

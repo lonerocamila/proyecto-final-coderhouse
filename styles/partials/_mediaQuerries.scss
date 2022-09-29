@@ -37,7 +37,7 @@
         flex-direction:column-reverse;
     }
     div{
-        display:flex;
+        
         flex-direction:row-reverse;
     }
     .df-main{
@@ -75,7 +75,7 @@
 @media (min-width: 1200px) {
   
 
-    header nav{
+    .header nav{
        
         padding-bottom: 0;
         padding-right: 20px;
@@ -94,7 +94,5 @@
         justify-content: center;
     }
     
-    footer{
-        justify-content: flex-end;
-    }
+    
 }

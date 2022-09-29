@@ -1,24 +1,19 @@
-.bodyclass{
-background: url(https://w.wallhaven.cc/full/q2/wallhaven-q2d2xd.jpg) no-repeat;
-background-position: center middle no-repeat;
-position: block;
-background-size: cover;
-left:0;
-top:0;
 
+body{
+ .h1  {  
+    font-size:16px;
+}
 
- .h1    
-    font-size: 2rem;
-
- .h2
+ .h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    color:rgb(236, 204, 161);
+    color: $font-color;
     font-weight:lighter;
+ }
 
- .form-text
+ .form-text{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    color:rgb(236, 204, 161);
-
+    color: $fontcolor;
+ }
 }
