@@ -35,7 +35,7 @@ header a:hover {
     box-sizing:border-box;
     background: linear-gradient(rgb(160, 228, 199), rgb(243,243,208) )
 }
-header .contenedor{
+header .menu{
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -76,7 +76,7 @@ h2{
     padding: 15px;
     margin: 0 auto;      
 }
-.df-ul{
+.menu-ul{
     color:#4CAF50;
    
     text-decoration: none;
@@ -99,14 +99,14 @@ h2{
     grid-template-columns: repeat (2, 1fr);
     justify-content: center;
 }
-.df-ul{
+.menu-ul{
     
     color:rgb(136, 245, 136);
     justify-content:center;
     align-items:center;
     list-style-type: style none;
 }
-.df-ul li{
+.menu-ul li{
  margin:0px;
  padding: 10px;
  text-align: center;
@@ -131,8 +131,9 @@ h2{
     color: rgb(96, 212, 96);
     letter-spacing: 5px;
 }
-.contenedor{
+.df-main{
     display:grid;
+    align-content: center;
     grid-template-columns: 2fr;
     grid-template-rows: 1fr 2fr; 
     gap:10px;
