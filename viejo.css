@@ -367,17 +367,8 @@ img, svg {
 /*````````` FIN hacetupedido.html`````````*/
 
 /*```````````INICIO trabajaconnosotros.html`````*/
+
 .feliz{
-    box-sizing:32PX 16PX;
-    border: 2px solid;
-    
-}
-.trabajacn{
-    display:flex;
-    flex-direction: column;
-    justify-items: center;
-}
-.trabajacn{
     background-color: rgb(61, 223, 123);
     font-size: 2rem;
     font-style:oblique;
@@ -464,10 +455,7 @@ img, svg {
     .logo{
         flex-direction:column-reverse;
     }
-    div{
-        display:flex;
-        flex-direction:row-reverse;
-    }
+    
     .df-main{
         width: 50%;
         max-width: 600px;
@@ -500,10 +488,17 @@ img, svg {
     }
 
     div .contacto-membresia{
-        display:flex;
-        flex-direction:column;
+    
+        
         margin:25px;
         padding: 20px;
+    }
+    footer{
+        width:50%;  
+        max-width:560px;
+        display: grid;
+        grid-template-columns:auto;
+
     }
 
 @media (min-width: 1200px) {
