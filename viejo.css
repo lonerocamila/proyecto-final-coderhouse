@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 
-ul{
-    list-style: none;
-}
+
 
 .bodyclass{
 background: url(https://w.wallhaven.cc/full/q2/wallhaven-q2d2xd.jpg) no-repeat;
@@ -35,6 +33,7 @@ header a:hover {
 }
 .nombre-empresa {
     display: grid;
+    grid-template-columns:auto;
     box-sizing:border-box;
     background: linear-gradient(rgb(160, 228, 199), rgb(243,243,208) )
 }
@@ -46,10 +45,9 @@ header .contenedor{
 
 header nav{
     color: rgb(58, 57, 19);
-    display: flex;
-    flex-direction:column;
+    
     text-align:center;
-    padding-bottom:25px;
+   
 }
 h1{ 
     font-size: 2rem;
@@ -71,9 +69,9 @@ h2{
 }
 /*          -----        HEADER        -----       */
 .hijo{
-    display: flex;
+    
     align-items: center;
-    flex-direction: row;
+    
     justify-content: space-between;
     text-decoration: none;
     color: rgb(128, 136, 20);
@@ -82,7 +80,7 @@ h2{
 }
 .df-ul{
     color:#4CAF50;
-    display:flex;
+   
     text-decoration: none;
     padding:20px;
 }
@@ -104,7 +102,7 @@ h2{
     justify-content: center;
 }
 .df-ul{
-    display:flex;
+    
     color:rgb(136, 245, 136);
     justify-content:center;
     align-items:center;
@@ -166,7 +164,7 @@ h2{
 .feliz{
     width: 250px;
     border-radius:10px;
-    margin:20px;
+   margin:20px;
     align-content: center;
 }
 .feliz:hover{
@@ -371,21 +369,11 @@ img, svg {
 .feliz{
     background-color: rgb(61, 223, 123);
     font-size: 2rem;
-    font-style:oblique;
-    text-align: center;
-}
-.form-contacto{
-    display:grid;
-    box-sizing:border-box;
-    grid-template-areas: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-    width:100%;
-    height: 20px;
-    padding: 12px 20px;
-    margin: 8px 0;
+    grid-template-columns:1fr 2fr 1fr;
+   
 
 }
+
 
 /*```````````FIN trabajaconnosotros.html``````*/
 
@@ -423,28 +411,24 @@ img, svg {
         grid-template-columns: 4fr;
         color:rgb(10, 230, 230);
         margin: 20px auto;
-        width: 100%
+        width: 50%
     }
-     header .hijo{
-       
-        
-        width: 50%;
-    }
+     header {
+        width:50%;  
+        max-width:560px;
+        display: grid;
+        grid-template-columns:auto;
+     }
     h1{
         padding: 20px;
     }
     ul nav{
-        display:flex;
-        flex-direction: column;
-        padding-bottom: 0;
-        padding-right: 20px;
-        color:black;
+       
+        
         font-weight: bold;
     }
     .df-ul{
-        display: flex;
-        flex-direction: column-reverse;
-        color:none;
+        
         text-decoration:none;
     }
     div.contenedor{
@@ -456,33 +440,9 @@ img, svg {
         flex-direction:column-reverse;
     }
     
-    .df-main{
-        width: 50%;
-        max-width: 600px;
-        text-align: initial;
-        padding-left: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    p .nombre-empresa{
-        width: 50%;
-        max-width: 600px;
-        text-align: initial;
-        padding-left: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
     p.descripcion{
-        width: 50%;
-        max-width: 600px;
-        text-align: initial;
-        padding-left: 30px;
-        display: flex;
-        flex-direction: column;
+        
         justify-content: center;
         align-items: center;
     }
