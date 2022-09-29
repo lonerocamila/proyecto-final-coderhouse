@@ -9,19 +9,17 @@
 
 .bodyclass{
 background: url(https://w.wallhaven.cc/full/q2/wallhaven-q2d2xd.jpg) no-repeat;
-background-position: center middle no-repeat;
+background-position: center no-repeat;
 position: block;
 background-size: cover;
-height:80px;
-width: 100%;
-position: absolute;
+color:aliceblue;
 left:0;
 top:0;
 }
-header a{
+header .a{
     padding: 5px 12px;
     text-decoration: none;
-    color: rgb(194, 103, 13);
+    color: rgb(233, 230, 227);
     box-sizing: border-box;
     font-weight: bold;
 }
