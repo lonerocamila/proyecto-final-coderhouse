@@ -138,44 +138,38 @@ h2{
 .contenedor{
     display:grid;
     grid-template-columns: 2fr;
-    grid-template-rows: 1fr 2fr;
-    
-    grid-template-areas: 'hijo hijo hijo'
-     "df.main"
-    'df.footer df-footer df.footer';
+    grid-template-rows: 1fr 2fr; 
     gap:10px;
-    padding:10px;
-    
+    padding:10px; 
 }
 
 /*`````FIN BODY``````*/
 /*````` espacio general p/config. GRIDS ``````*/
 .hijo{
     display:inline-block;
-   
     padding: 3px; 
     margin:20px auto;
 }
 
 
-/*```````MAIN````````*/
-.card1{
+/*```````cambie card-1 y card-2 por otras clases para hacer uso de las transformaciones````````*/
+.bedi{
     width: 250px;
     border-radius:10px;
     margin:20px;
     align-content: center;
 }
-.card1:hover{
+.bedi:hover{
     transform: scale(0.5);
     transition: all 1s ease;
 }
-.card2{
+.feliz{
     width: 250px;
     border-radius:10px;
     margin:20px;
     align-content: center;
 }
-.card2:hover{
+.feliz:hover{
     transform: scale(0.5);
     transition: all 1s ease;
 }
@@ -441,8 +435,8 @@ img, svg {
         width: 100%
     }
      header .hijo{
-        display:flex;
-        flex-direction:column;
+       
+        
         width: 50%;
     }
     h1{
@@ -463,7 +457,7 @@ img, svg {
         text-decoration:none;
     }
     div.contenedor{
-        display:grid;
+
         align-items: center;
         width: 50%;
     }
