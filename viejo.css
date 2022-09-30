@@ -5,24 +5,12 @@
     box-sizing: border-box;
 }
 
-
-
 .menu{
-background: url(https://w.wallhaven.cc/full/q2/wallhaven-q2d2xd.jpg) no-repeat;
-background-position: center no-repeat;
-position: block;
-background-size: cover;
-color:aliceblue;
-left:0;
-top:0;
+
+a{
+    color:#4CAF50; 
 }
-header .a{
-    padding: 5px 12px;
-    text-decoration: none;
-    color: rgb(233, 230, 227);
-    box-sizing: border-box;
-    font-weight: bold;
-}
+
 header a:hover {
     color: rgb(236, 236, 22);
 }
@@ -35,18 +23,8 @@ header a:hover {
     box-sizing:border-box;
     background: linear-gradient(rgb(160, 228, 199), rgb(243,243,208) )
 }
-header .menu{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-}
 
-header nav{
-    color: rgb(58, 57, 19);
-    
-    text-align:center;
-   
-}
+
 h1{ 
     font-size: 2rem;
 }
@@ -61,59 +39,13 @@ h2{
     font-size: 15px;
     color:rgb(236, 204, 161);
 }
-.index{
-    font-size: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
+
 /*          -----        HEADER        -----       */
-.hijo{
-    
-    align-items: center;
-    
-    justify-content: space-between;
-    text-decoration: none;
-    color: rgb(128, 136, 20);
-    padding: 15px;
-    margin: 0 auto;      
-}
-.menu-ul{
-    color:#4CAF50;
-   
-    text-decoration: none;
-    padding:20px;
-}
-.padre {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.logo{
-    display:flex;    
-    justify-items: center;
-    align-content: center;
-    height: 9px;
-    width: 40px;
-    align-items: center;
-    display:grid;
-    grid-template-columns: repeat (2, 1fr);
-    justify-content: center;
-}
-.menu-ul{
-    
-    color:rgb(136, 245, 136);
-    justify-content:center;
-    align-items:center;
-    list-style-type: style none;
-}
-.menu-ul li{
- margin:0px;
- padding: 10px;
- text-align: center;
- list-style: none;
- overflow:hidden;
- border-style:none;
-}
+
+
+
+
+
 
 
 /*`````````` BODY````````*/
@@ -134,19 +66,15 @@ h2{
 .df-main{
     display:grid;
     align-content: center;
-    grid-template-columns: 2fr;
-    grid-template-rows: 1fr 2fr; 
+    grid-template-columns: 3fr 3fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr; 
     gap:10px;
-    padding:10px; 
+    padding:20px; 
 }
 
 /*`````FIN BODY``````*/
 /*````` espacio general p/config. GRIDS ``````*/
-.hijo{
-    display:inline-block;
-    padding: 3px; 
-    margin:20px auto;
-}
+
 
 
 /*```````cambie card-1 y card-2 por otras clases para hacer uso de las transformaciones````````*/
@@ -171,13 +99,7 @@ h2{
     transition: all 1s ease;
 }
 /*``````inicio FLEXBOX MAIN``````*/
-.main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-}
+
 /*``````fin FLEX MAIN`````*/
 
 .enviar{
@@ -190,20 +112,7 @@ h2{
 
 /*````````FOOTER`````````*/
 
-.df-footer{
-    color:hwb(52 88% 0%);
-    background-color: #606C38;
-    width: 100%;
-    padding: 10px;
-    
-    margin:auto;
 
-   
-}
-img, svg {
-    vertical-align: middle;
-    height: 70px;
-}
 
 /*FIN FOOTER*/
 
@@ -220,12 +129,7 @@ img, svg {
      color:rgb(236, 204, 161);
      font-weight:lighter;
      }
-.container{
-    width: 250px;
-    border-radius:10px;
-    margin:20px;
-    align-content: center;
-}
+
     
     .bedi{
      display:grid; 
@@ -362,7 +266,6 @@ img, svg {
 /*````````` FIN hacetupedido.html`````````*/
 
 /*```````````INICIO trabajaconnosotros.html`````*/
-
 .feliz{
     background-color: rgb(61, 223, 123);
     font-size: 2rem;
@@ -410,31 +313,6 @@ img, svg {
         margin: 20px auto;
         width: 50%
     }
-     header {
-        width:50%;  
-        max-width:560px;
-        display: grid;
-        grid-template-columns:auto;
-     }
-    h1{
-        padding: 20px;
-    }
-    ul .nav{
-
-        font-weight: bold;
-    }
-    .df-ul{
-        
-        text-decoration:none;
-    }
-    div.contenedor{
-
-        align-items: center;
-        width: 50%;
-    }
-    .logo{
-        flex-direction:column-reverse;
-    }
     
 
     p.descripcion{
@@ -443,43 +321,24 @@ img, svg {
         align-items: center;
     }
 
-    div .contacto-membresia{
+    .contacto-membresia{
     
         
         margin:25px;
         padding: 20px;
     }
-    footer{
-        width:50%;  
-        max-width:560px;
-        display: grid;
-        grid-template-columns:auto;
-
-    }
-
+    
 @media (min-width: 1200px) {
   
 
-    header nav{
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;
-    }
+  
     
     .contenedor-mediaqueries{
         align-items: center;
         flex-direction: row;
         justify-content: space-between;
     }
-    .df-main{
-        width: 100%;
-        max-width: 600px;
-        text-align: initial;
-        padding-left: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+   
     
     footer{
         justify-content: flex-end;
