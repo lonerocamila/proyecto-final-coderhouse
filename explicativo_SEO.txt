@@ -1,0 +1,5 @@
+Agregue dos mixins en referencia al index html 
+Modifique los titulos de los html, aplicando SEO 
+Utilice meta etiquetas de  meta description y meta keywords
+Redimensione las imagenes 
+

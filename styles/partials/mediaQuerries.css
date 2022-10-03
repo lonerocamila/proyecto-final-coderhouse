@@ -1,0 +1,71 @@
+/*``````` MEDIA QUERIES para todos los HTML`````*/
+@media only screen and (max-width: 748px) {
+  .contenedor-mediaqueries {
+    display: grid;
+    grid-column: row-reverse;
+    grid-template-columns: 4fr;
+    color: rgb(10, 230, 230);
+    width: 100%;
+  }
+  header .hijo {
+    width: 50%;
+  }
+  h1 {
+    padding: 20px;
+  }
+  div.contenedor {
+    display: grid;
+    align-items: center;
+    width: 50%;
+  }
+  .logo {
+    flex-direction: column-reverse;
+  }
+  div {
+    flex-direction: row-reverse;
+  }
+  .df-main {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    justify-content: center;
+  }
+  p .nombre-empresa {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    justify-content: center;
+  }
+  p.descripcion {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  div .contacto-membresia {
+    margin: 25px;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 748px) and (min-width: 1200px) {
+  .header nav {
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+  .contenedor-mediaqueries {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .df-main {
+    width: 100%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=mediaQuerries.css.map */
