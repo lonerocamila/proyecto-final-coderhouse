@@ -1,0 +1,33 @@
+header {
+  background-image: url(./img/vista-senital.jpg);
+}
+header a {
+  color: #e7f0e7;
+}
+header header a:hover {
+  color: rgb(236, 236, 22);
+}
+
+.nav {
+  text-align: center;
+  align-items: center;
+}
+
+img {
+  background-image: url(./img/vista-senital.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  background-color: rgb(76, 175, 80);
+  border-radius: 10px;
+}
+main__h2 {
+  text-align: center;
+  font-size: 4rem;
+  padding: 20px;
+}
+main__p {
+  color: rgb(236, 204, 161);
+}/*# sourceMappingURL=header.css.map */

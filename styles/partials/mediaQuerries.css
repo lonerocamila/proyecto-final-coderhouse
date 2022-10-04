@@ -2,12 +2,11 @@
 @media only screen and (max-width: 748px) {
   .contenedor-mediaqueries {
     display: grid;
-    grid-column: row-reverse;
     grid-template-columns: 4fr;
     color: rgb(10, 230, 230);
     width: 100%;
   }
-  header .hijo {
+  header {
     width: 50%;
   }
   h1 {
@@ -18,30 +17,21 @@
     align-items: center;
     width: 50%;
   }
-  .logo {
-    flex-direction: column-reverse;
-  }
-  div {
-    flex-direction: row-reverse;
-  }
   .df-main {
     width: 50%;
     max-width: 600px;
-    text-align: initial;
     padding-left: 30px;
     justify-content: center;
   }
   p .nombre-empresa {
     width: 50%;
     max-width: 600px;
-    text-align: initial;
     padding-left: 30px;
     justify-content: center;
   }
   p.descripcion {
     width: 50%;
     max-width: 600px;
-    text-align: initial;
     padding-left: 30px;
     justify-content: center;
     align-items: center;
@@ -64,7 +54,6 @@
   .df-main {
     width: 100%;
     max-width: 600px;
-    text-align: initial;
     padding-left: 30px;
     justify-content: center;
   }

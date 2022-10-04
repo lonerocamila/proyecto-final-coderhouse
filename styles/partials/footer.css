@@ -1,0 +1,15 @@
+/*````````FOOTER`````````*/
+.df-footer {
+  color: hwb(52 88% 0%);
+  background-color: #606C38;
+  width: 100%;
+  padding: 10px;
+  height: 40px;
+  position: absolute;
+  margin-bottom: 1 em;
+  /*FIN FOOTER*/
+}
+.df-footer img, .df-footer svg {
+  vertical-align: middle;
+  height: 70px;
+}/*# sourceMappingURL=footer.css.map */

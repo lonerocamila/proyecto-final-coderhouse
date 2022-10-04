@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 5px;
+  height: 40px;
+}
+
+.cajapedir {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

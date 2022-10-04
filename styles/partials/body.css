@@ -1,0 +1,13 @@
+body .h1 {
+  font-size: 16px;
+}
+body .h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+body .form-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: rgb(236, 204, 161);
+}/*# sourceMappingURL=body.css.map */

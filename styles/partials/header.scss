@@ -1,12 +1,17 @@
 
+$fontCairo: 'Cairo', sans-serif;
+$maincolor: rgb(96, 108, 56);
+$secondarycolor:  rgb(76, 175, 80);
+$fontcolor: rgb(236, 204, 161);
+
 @mixin sections {
      background-color: $secondarycolor;
-     border-radius: 5px;
+     border-radius: 10px;
 
     &__h2{
           text-align: center;
-          font-size: 3rem;
-          padding: 10px;
+          font-size: 4rem;
+          padding: 20px;
          }
     &__p{
         color: $fontcolor;
@@ -15,13 +20,11 @@
  
 }
 @mixin headers {
-    background-color: $primarycolor;
-    background: url(https://w.wallhaven.cc/full/q2/wallhaven-q2d2xd.jpg) no-repeat;
-    background-position: center no-repeat;
-    background-size: cover;
-    color:aliceblue;
+   
+    background-image: url(./img/vista-senital.jpg);
+ 
     a{
-        color:#4CAF50; 
+        color:#e7f0e7; 
     }
     
     header a:hover {
@@ -31,18 +34,23 @@
 header{
     @include headers
 }
-     .menu{
-        color: $secondarycolor;
-     }
-     .logo{
-        width: 100px;   
-    }
+    
+   
          .nav{
-             color: rgb(58, 57, 19);
+             
              text-align:center;
              align-items: center;
-             padding-bottom:25px;
+            
              }
+
+img {
+    
+    background-image: url(./img/vista-senital.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
     
   main{
     @include sections
