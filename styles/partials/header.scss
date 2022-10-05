@@ -39,13 +39,12 @@ header{
             align-items: center;
             }
 
-img {
-    background-image: url(./img/vista-senital.jpg);
+ header{
+    height: 100vh;
+    background-image: linear-gradient (to top(green ) 0%, blue 0,5) 100%, url(./img/vista-senital.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
-}
-
-  main{
-    @include sections
-  }          
-               
+ }
+  
