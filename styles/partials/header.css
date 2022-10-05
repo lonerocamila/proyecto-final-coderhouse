@@ -1,4 +1,6 @@
 header {
+  display: grid;
+  grid-template-rows: 1fr 1fr 2fr;
   background-image: url(./img/vista-senital.jpg);
 }
 header a {

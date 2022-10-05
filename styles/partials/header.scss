@@ -20,7 +20,8 @@ $fontcolor: rgb(236, 204, 161);
  
 }
 @mixin headers {
-   
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
     background-image: url(./img/vista-senital.jpg);
  
     a{
