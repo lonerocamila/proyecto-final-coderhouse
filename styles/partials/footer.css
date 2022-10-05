@@ -2,11 +2,11 @@
 .df-footer {
   color: hwb(52 88% 0%);
   background-color: #606C38;
-  width: 100%;
-  position: absolute;
-  /*FIN FOOTER*/
 }
-.df-footer img, .df-footer svg {
+
+img, svg {
   vertical-align: middle;
   height: 70px;
-}/*# sourceMappingURL=footer.css.map */
+}
+
+/*FIN FOOTER*//*# sourceMappingURL=footer.css.map */

@@ -61,22 +61,17 @@
 }
 /*````````FOOTER`````````*/
 .df-footer {
-  display: flex;
-  grid-template-columns: 4fr;
   color: hwb(52 88% 0%);
   background-color: #606C38;
-  width: 100%;
-  padding: 10px;
-  height: 40px;
-  position: absolute;
-  margin-bottom: 1 em;
-  /*FIN FOOTER*/
+  max-height: 200px;
 }
-.df-footer img, .df-footer svg {
+
+img, svg {
   vertical-align: middle;
   height: 70px;
 }
 
+/*FIN FOOTER*/
 body .h1 {
   font-size: 16px;
 }

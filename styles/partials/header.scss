@@ -15,7 +15,6 @@ $fontcolor: rgb(236, 204, 161);
          }
     &__p{
         color: $fontcolor;
-
     }
  
 }
@@ -35,24 +34,17 @@ $fontcolor: rgb(236, 204, 161);
 header{
     @include headers
 }
-    
-   
-         .nav{
-             
-             text-align:center;
-             align-items: center;
-            
-             }
+     .nav{
+            text-align:  center;
+            align-items: center;
+            }
 
 img {
-    
     background-image: url(./img/vista-senital.jpg);
     background-size: cover;
     background-position: center;
-
 }
 
-    
   main{
     @include sections
   }          
