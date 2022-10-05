@@ -1,24 +1,16 @@
 /*````````FOOTER`````````*/
 
 .df-footer{
-    display: flex;
-    grid-template-columns: 4fr;
-    
     color:hwb(52 88% 0%);
     background-color: #606C38;
     width: 100%;
-    padding: 10px;
-    height: 40px;
-    
     position: absolute;
-    margin-bottom: 1 em;
+    
 
      img, svg {
          vertical-align: middle;
          height: 70px;
 }
-
-
 
 /*FIN FOOTER*/
 }

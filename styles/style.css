@@ -61,24 +61,20 @@
 }
 /*````````FOOTER`````````*/
 .df-footer {
+  display: flex;
+  grid-template-columns: 4fr;
   color: hwb(52 88% 0%);
   background-color: #606C38;
   width: 100%;
   padding: 10px;
-  margin: auto;
-  position: sticky;
-  bottom: 0;
+  height: 40px;
+  position: absolute;
+  margin-bottom: 1 em;
   /*FIN FOOTER*/
 }
 .df-footer img, .df-footer svg {
   vertical-align: middle;
   height: 70px;
-}
-.df-footer footer {
-  width: 50%;
-  max-width: 560px;
-  display: grid;
-  grid-template-columns: auto;
 }
 
 body .h1 {
@@ -96,6 +92,8 @@ body .form-text {
 }
 
 header {
+  display: grid;
+  grid-template-rows: 1fr 1fr 2fr;
   background-image: url(./img/vista-senital.jpg);
 }
 header a {
@@ -122,8 +120,8 @@ main {
 }
 main__h2 {
   text-align: center;
-  font-size: 3rem;
-  padding: 10px;
+  font-size: 4rem;
+  padding: 20px;
 }
 main__p {
   color: rgb(236, 204, 161);

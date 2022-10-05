@@ -1,5 +1,7 @@
 main{
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 4fr;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -9,8 +11,13 @@ main{
 main{
     @include sections;
 }
-.cajapedir{
+
+     &__.cajapedir{
     display: flex;
     padding: 20px;
     text-align: center;
-}
+     }
+
+
+
+
