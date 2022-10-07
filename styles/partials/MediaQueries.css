@@ -1,6 +1,6 @@
 /*``````` MEDIA QUERIES para todos los HTML`````*/
 @media only screen and (max-width: 748px) {
-  .contenedor-mediaqueries {
+  .div {
     display: grid;
     grid-template-columns: 4fr;
     color: rgb(10, 230, 230);
@@ -18,6 +18,8 @@
     width: 50%;
   }
   .df-main {
+    display: flex;
+    flex-direction: center;
     width: 50%;
     max-width: 600px;
     padding-left: 30px;
@@ -26,8 +28,9 @@
   p .nombre-empresa {
     width: 50%;
     max-width: 600px;
-    padding-left: 30px;
+    padding: 30px;
     justify-content: center;
+    align-items: center;
   }
   p.descripcion {
     width: 50%;
@@ -46,7 +49,7 @@
     padding-bottom: 0;
     padding-right: 20px;
   }
-  .contenedor-mediaqueries {
+  .div {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
@@ -57,4 +60,4 @@
     padding-left: 30px;
     justify-content: center;
   }
-}/*# sourceMappingURL=mediaQuerries.css.map */
+}/*# sourceMappingURL=MediaQueries.css.map */
