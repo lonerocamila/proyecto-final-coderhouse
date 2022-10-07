@@ -1,6 +1,13 @@
-@import "./partials/header.scss";
-@import "./partials/body.scss";
-@import "./partials/main.scss";
-@import "./partials/footer.scss";
-@import "./partials/reset.scss";
-@import "./partials/MediaQueries.scss";
+@import "./partials/header";
+
+@import "./partials/body";
+
+@import "./partials/main";
+
+@import "./partials/footer";
+
+@import "./partials/reset";
+
+@import "./partials/MediaQueries";
+
+@import "./partials/variables"
