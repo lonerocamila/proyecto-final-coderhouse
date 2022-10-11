@@ -1,15 +1,16 @@
 /*-----VARIABLES PARA FONTS------*/
-$h1: 3.5em;
-$h2: 2.7em;
-$h3: 2em;
-$p: 1.25em;
-$u: none;
+$ache1: 3.5em;
+$ache2: 2.7em;
+$ache3: 2em;
+$pe: 1.25em;
+$uh: none;
 $list: 1.25em;
-$font-sizes: ("small": 12px, "normal": 18px, "large": 24px)
-map-get($font-sizes, "small");
+$fontsizes: ("small": 12px, "normal": 18px, "large": 24px)
+map-get($fontsizes, "small");
 
 /*------VARIABLES PARA COLORES------*/
 
 $maincolor: rgb(90,153,77);
 $secondarycolor: rgb(76,175,80);
 $fontcolor: rgb(236, 204, 161);
+$footercolor: #606C38;

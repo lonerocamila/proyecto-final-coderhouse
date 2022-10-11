@@ -2,6 +2,7 @@
 .df-footer {
   color: hwb(52 88% 0%);
   background-color: #606C38;
+  max-height: 200px;
 }
 
 img, svg {

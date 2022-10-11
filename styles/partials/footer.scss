@@ -2,9 +2,8 @@
 
 .df-footer{
     color:hwb(52 88% 0%);
-    background-color: #606C38;
-
-    
+    background-color: $footercolor;
+    max-height: 200px;  
 }
      img, svg {
          vertical-align: middle;
