@@ -1,3 +1,16 @@
+.df-main {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+}
+
 df-main {
   box-sizing: 5px;
 }
@@ -16,18 +29,12 @@ df-main__p {
   margin: 0;
 }
 
-.button {
-  font-size: 1.25em;
-  font-weight: bold;
-  padding: 10px 30px;
-  border-radius: 5px;
-  border: 2px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  color: rgb(248, 248, 165);
-  background-color: rgb(156, 194, 100);
+.carousel-inner {
+  width: 24%;
+  margin-bottom: 10px;
 }
-.button__button:hover {
-  background-color: rgb(101, 33, 165);
+.carousel-inner img {
+  width: 100%;
 }
 
 .historia h2 {
@@ -94,4 +101,5 @@ button:active {
   to {
     transform: translateY(-0.1em);
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*fin button*//*# sourceMappingURL=main.css.map */
