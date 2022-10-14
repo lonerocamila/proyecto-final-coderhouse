@@ -1,14 +1,19 @@
 /*````````FOOTER`````````*/
 
-.contenedor-footer{
+div .contenedor-footer{
     display:flex;
     width:90%;
     justify-content: space-evenly;
     margin:auto;
     padding-bottom: 50px;
     border-bottom: 1px solid rgb(230, 230, 117);
-    background-color: rgb(125, 199, 55);
-    min-height: 70vh;  
+    max-height: 200px;
+    height: 70px;  
+    grid-gap: 2.5rem;
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: 1fr 1fr;
+}
 }
 .content-foo{
     text-align: center;
@@ -28,7 +33,7 @@
         margin-bottom: 10px;
 
     }
-    
+
 }
      img, svg {
          vertical-align: middle;

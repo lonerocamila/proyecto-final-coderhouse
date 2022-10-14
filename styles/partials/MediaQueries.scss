@@ -3,7 +3,6 @@
 @media only screen and (max-width: 748px){
     
     .div{
-      
         display: grid;
         grid-template-columns: 4fr;
         color:rgb(10, 230, 230);
@@ -54,10 +53,7 @@
     }
 
 @media (min-width: 1200px) {
-  
-
     .header nav{
-       
         padding-bottom: 0;
         padding-right: 20px;
     }

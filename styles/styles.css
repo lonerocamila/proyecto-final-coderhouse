@@ -1,5 +1,37 @@
 /*-----VARIABLES PARA FONTS------*/
 /*------VARIABLES PARA COLORES------*/
+header {
+  width: 100%;
+  height: 600px;
+  background: #D1913C; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(157, 255, 148, 0.568627451), rgba(50, 255, 176, 0.4784313725)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(130, 228, 92, 0.4862745098), #3cd155), url("wallhaven-n6yovw.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: grid;
+  grid-template-rows: 1fr 1fr 2fr;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100;
+}
+
+.contenedor {
+  padding: 60px 0px;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.titulo {
+  color: greenyellow;
+  margin-bottom: 60px;
+}
+
 h1 {
   font-size: 3.5em;
 }
@@ -25,6 +57,19 @@ button {
   box-shadow: 2px 2px 10px;
 }
 
+.df-main {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+}
+
 df-main {
   box-sizing: 5px;
 }
@@ -43,18 +88,12 @@ df-main__p {
   margin: 0;
 }
 
-.button {
-  font-size: 1.25em;
-  font-weight: bold;
-  padding: 10px 30px;
-  border-radius: 5px;
-  border: 2px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  color: rgb(248, 248, 165);
-  background-color: rgb(156, 194, 100);
+.carousel-inner {
+  width: 24%;
+  margin-bottom: 10px;
 }
-.button__button:hover {
-  background-color: rgb(101, 33, 165);
+.carousel-inner img {
+  width: 100%;
 }
 
 .historia h2 {
@@ -122,89 +161,13 @@ button:active {
     transform: translateY(-0.1em);
   }
 }
-/*````````FOOTER`````````*/
-.df-footer {
-  color: hwb(52 88% 0%);
-  background-color: #606C38;
-  max-height: 200px;
-}
-
-img, svg {
-  vertical-align: middle;
-  height: 70px;
-}
-
-/*FIN FOOTER*/
+/*fin button*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-/*``````` MEDIA QUERIES para todos los HTML`````*/
-@media only screen and (max-width: 748px) {
-  .div {
-    display: grid;
-    grid-template-columns: 4fr;
-    color: rgb(10, 230, 230);
-    width: 100%;
-  }
-  header {
-    width: 50%;
-  }
-  h1 {
-    padding: 20px;
-  }
-  div.contenedor {
-    display: grid;
-    align-items: center;
-    width: 50%;
-  }
-  .df-main {
-    display: flex;
-    flex-direction: center;
-    width: 50%;
-    max-width: 600px;
-    padding-left: 30px;
-    justify-content: center;
-  }
-  p .nombre-empresa {
-    width: 50%;
-    max-width: 600px;
-    padding: 30px;
-    justify-content: center;
-    align-items: center;
-  }
-  p.descripcion {
-    width: 50%;
-    max-width: 600px;
-    padding-left: 30px;
-    justify-content: center;
-    align-items: center;
-  }
-  div .contacto-membresia {
-    margin: 25px;
-    padding: 20px;
-  }
-}
-@media only screen and (max-width: 748px) and (min-width: 1200px) {
-  .header nav {
-    padding-bottom: 0;
-    padding-right: 20px;
-  }
-  .div {
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .df-main {
-    width: 100%;
-    max-width: 600px;
-    padding-left: 30px;
-    justify-content: center;
-  }
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }/*# sourceMappingURL=styles.css.map */

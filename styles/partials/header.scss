@@ -1,14 +1,17 @@
 header{
     width:100%;
-    height: 600px;
+    height:5px;
+    box-sizing: border-box;
+    padding:5px;
+    background-image: url("wallhaven-n6yovw.png");
     background: #D1913C;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #9dff9491, #32ffb07a);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #82e45c7c, #3cd155),  url("wallhaven-n6yovw.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background: linear-gradient(to right, #82e45c7c, #3cd155)  ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
     display: grid;
     grid-template-rows: 1fr 1fr 2fr;
     background-size: cover;
     background-attachment: fixed;
-    position:relative;
+    position: relative;
 }
 .wave{
     position:absolute;
@@ -16,14 +19,10 @@ header{
     width:100;
 }
 .contenedor{
-    padding: 60px 0px;
-    width: 90%;
+    padding: 20px 0px;
+    width: 30%;
     max-width: 1000px;
     margin:auto;
     overflow: hidden;
 }
 
-.titulo {
-    color:greenyellow;
-    margin-bottom:60px;
-}
