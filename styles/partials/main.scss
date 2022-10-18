@@ -6,9 +6,10 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  margin: 20px;
+  margin: auto;
   padding: 20px;
-  overflow: hidden;
+  max-width:1400px;
+
   
 }
 
@@ -29,14 +30,14 @@ df-main{
 
 .nombre-empresa{
 
-  width: 320px;
+  
   padding: 10px;
-  border: 5px solid rgb(22, 2, 2);
+  border: 5px solid rgb(22, 22, 22);
   margin: 0
 }
 
 .carousel-inner{
-      width:24%;
+      width:80%;
       margin-bottom: 10px;
 
       img{
@@ -46,11 +47,17 @@ df-main{
 }
 
 .historia{
+  display: grid;
+  grid-template-columns: 1fr;
+  
+  grid-column-gap: initial;
+  
     h2{
     display: flex;
     flex-direction:center;
     text-align: center;
     align-content:center;
+   
     font-size: 3rem;
     font-weight: bold;
 }

@@ -1,29 +1,23 @@
 header {
   width: 100%;
-  height: 5px;
-  box-sizing: border-box;
-  padding: 5px;
   background-image: url("wallhaven-n6yovw.png");
-  background: #D1913C; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(157, 255, 148, 0.568627451), rgba(50, 255, 176, 0.4784313725)); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(130, 228, 92, 0.4862745098), #3cd155); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: grid;
-  grid-template-rows: 1fr 1fr 2fr;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
 }
+header__a {
+  text-decoration: none;
+}
 
-.wave {
+.wavej {
   position: absolute;
   bottom: 0;
-  width: 100;
+  width: 100%;
+  height: 100%;
 }
 
 .contenedor {
   padding: 20px 0px;
-  width: 30%;
-  max-width: 1000px;
   margin: auto;
-  overflow: hidden;
 }/*# sourceMappingURL=header.css.map */
