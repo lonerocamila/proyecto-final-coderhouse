@@ -1,7 +1,4 @@
 .df-main {
-  display: grid;
-  grid-template-columns: 2fr 3fr 1fr;
-  grid-template-rows: 1fr 4fr 1fr;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -12,6 +9,7 @@
 }
 
 df-main {
+  padding: 5px;
   box-sizing: 5px;
 }
 df-main__h2 {
@@ -28,11 +26,14 @@ df-main__p {
   margin: 0;
 }
 
-.carousel-inner {
-  width: 80%;
-  margin-bottom: 10px;
+.smile {
+  padding: 0px;
+  margin: 20px;
 }
-.carousel-inner img {
+
+.carousel-inner {
+  padding: 20px;
+  margin-bottom: 10px;
   width: 100%;
 }
 

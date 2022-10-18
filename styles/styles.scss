@@ -1,5 +1,7 @@
 @import "./partials/variables";
 
+@import 'animate.css';
+
 @import "./partials/header";
 
 @import "./partials/body";
@@ -7,6 +9,8 @@
 @import "./partials/main";
 
 @import "./partials/footer";
+
+@import "./mediaqueries.scss";
 
 @import "./partials/reset";
 

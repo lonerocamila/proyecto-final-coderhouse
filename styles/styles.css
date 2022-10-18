@@ -1,5 +1,6 @@
 /*-----VARIABLES PARA FONTS------*/
 /*------VARIABLES PARA COLORES------*/
+@import 'animate.css';
 header {
   width: 100%;
   background-image: url("wallhaven-n6yovw.png");
@@ -50,9 +51,6 @@ button {
 }
 
 .df-main {
-  display: grid;
-  grid-template-columns: 2fr 3fr 1fr;
-  grid-template-rows: 1fr 4fr 1fr;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -63,6 +61,7 @@ button {
 }
 
 df-main {
+  padding: 5px;
   box-sizing: 5px;
 }
 df-main__h2 {
@@ -79,11 +78,14 @@ df-main__p {
   margin: 0;
 }
 
-.carousel-inner {
-  width: 80%;
-  margin-bottom: 10px;
+.smile {
+  padding: 0px;
+  margin: 20px;
 }
-.carousel-inner img {
+
+.carousel-inner {
+  padding: 20px;
+  margin-bottom: 10px;
   width: 100%;
 }
 
@@ -177,8 +179,9 @@ button:active {
   margin-bottom: 10px;
 }
 .content-foo p {
-  color: rgb(230, 230, 117);
-  border-bottom: 3px solid rgb(230, 230, 117);
+  color: rgb(130, 184, 49);
+  border-bottom: 3px solid rgb(130, 184, 49);
+  text-shadow: rgb(0, 0, 0);
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
