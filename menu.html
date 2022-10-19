@@ -63,29 +63,36 @@
 
   <main>
      <br> 
-        <form action=""> <!---crear pdf del menu y linkearlo dentro del form-->
+        <form action="menu">
              <div class="container col-md-3 col-sm-7">
-               <button class="button w-20 m-3 p-3"> Ver Menú </button>
+               <button class="button w-20 m-3 p-3"> <anchor target="_blank"> <iframe scr="./menu.pdf"> </iframe>Ver Menú </anchor>  </button>
         </form>
                <comand type="button" value="menu"></comand>
              </div>
 
-             <div class="container-fluid row col-lg-4">
+             <div class="container-fluid row col-lg-6" class="iframe">
 
                <section>
                  <br>
+                 <!---INICIO iframe-->
+                 
                  <meta name="video" content="receta de pastas">
                    <h4 class="receta font-monospace"> Una receta para vos: </h4>
                     <div class="boxvideo">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/ui2EBEi1omM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/ui2EBEi1omM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen target="_blank"></iframe>
                     </div>
               </div>
                </section>
+              
+               <!---FIN iframe-->
     </main>
+
     <br>
+
+    <!---INICIO cards de boostrap una al lado de la otra-->
     <section class="chef">
       <div class="row g-3">
-      <!---INICIO cards de boostrap una al lado de la otra-->
+      
       <div class="card-group">
         <div class="card">
           <img src="./img/Carlo-Cracco.jpg" class="card-img-top" alt="Carlo Cracco">

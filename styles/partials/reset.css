@@ -5,6 +5,15 @@
   background: rgb(230, 236, 230);
 }
 
+h2 {
+  color: rgb(15, 13, 13);
+}
+
+h2::selection {
+  color: rgb(216, 219, 29);
+  background-color: rgb(5, 4, 4);
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }/*# sourceMappingURL=reset.css.map */

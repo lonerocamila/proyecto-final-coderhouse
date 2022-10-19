@@ -41,8 +41,6 @@ df-main{
   margin-bottom: 10px;
   width:100%;
      
-
-      
 }
 
 .historia{
@@ -66,7 +64,28 @@ df-main{
 
    }
 }
- 
+
+.iframe{
+  padding: 60px;
+  margin:20px;
+
+}
+ .caja-pedir{
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 1px 1px solid black ;
+  border: 2px solid rgb(96, 223, 96);
+  margin:20px;
+  height:600px;
+ }
+
+ .pedilo{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+ }
 /*----INICIO sass para send button -----*/
 
 button{
