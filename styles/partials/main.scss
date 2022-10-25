@@ -170,6 +170,8 @@ button{
   color: rgb(96, 223, 96);
   text-shadow: 0px 0px 10px rgba(0, 0,0.2);
 }
+
+/* INICIO formularioreserva.html*/
 card-group{
   display: flex;
   flex-flow: nowrap;
@@ -185,9 +187,29 @@ card-img-top{
   width:150px;
   padding: 35px;
 
-
 }
 
+/*FIN formularioreserva.html*/
 
+/*INICIO hacetupedido.html--*/
+ .cajapediruno{
+    h1{ font-size: 6rem;
+     font-weight: 200;
+     font-stretch: expanded;
+     }
+   &__p{
+      font-size: large;
+      
+
+    }
+ 
+ }
+ .cajapedirdos{
+   p{
+    font-size:13rem;
+   }
+
+ }
+/*FIN hacetupedido.html*/
 
  
