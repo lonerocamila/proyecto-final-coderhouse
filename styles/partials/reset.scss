@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    background: rgb(230, 236, 230);
+    
    &__ a {
       text-decoration:none;
     }
@@ -16,6 +16,7 @@ h2::selection{
   background-color:rgb(5, 4, 4);
 }
 body{
+    background: rgb(230, 236, 230);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  

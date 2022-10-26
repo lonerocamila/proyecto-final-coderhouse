@@ -239,3 +239,33 @@ font-size: 6rem;
  font-style:bold;   
 }
 /*FIN hacetupedido.html*/ 
+
+
+/*----INICIO variedaddecomidas.html---*/
+.ach{
+    display:flex;
+    border: 1px rgb(22, 22, 22);
+    background-color:rgb(96, 223, 96);
+    align-content: center;
+    align-items: center;
+    float: left;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    z-index: 2;
+    min-height: 1px;
+
+    h5{
+      text-align:center;
+    }
+}
+/*----FIN variedaddecomidas.html---*/
+
+
+/*INICIO bedicomo.html*/
+ .tratoria{
+   overflow: hidden;
+   width:98%;
+   
+ }
+/*INICIO bedicomo.html*/
