@@ -3,7 +3,9 @@
     padding:0;
     box-sizing:border-box;
     background: rgb(230, 236, 230);
-    
+   &__ a {
+      text-decoration:none;
+    }
 }
 
 h2{

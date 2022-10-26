@@ -74,23 +74,7 @@ df-main{
   margin:20px;
 
 }
- .cajapedir{
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  align-items: center;
-  box-sizing: border-box;
-  box-shadow: 1px 1px solid black ;
-  border: 2px solid rgb(96, 223, 96);
-  margin:20px;
-  height:600px;
- }
-
- h2.pedilo{
-  font-size: 500px;
-  display:flex;
-  flex-direction: row;
-  align-items:center;
- }
+ 
 .cardin{
   box-sizing: border-box;
   background-color: rgb(118, 185, 16);
@@ -115,7 +99,7 @@ button{
     border-radius: 16px;
     overflow: hidden;
     transition: all 0.2s;
-    text-decoration: none;
+    
 }
 
     span{
@@ -148,7 +132,10 @@ button{
     from { transform: translateY(0.1em); }
     to { transform: translateY(-0.1em); }
   }
-
+  a{
+    font-style: none;
+    text-decoration:none;
+  }
   /*fin button*/
   
   
@@ -192,24 +179,59 @@ card-img-top{
 /*FIN formularioreserva.html*/
 
 /*INICIO hacetupedido.html--*/
- .cajapediruno{
-    h1{ font-size: 6rem;
-     font-weight: 200;
-     font-stretch: expanded;
-     }
-   &__p{
-      font-size: large;
-      
-
-    }
  
+ .boxpedir{
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 1px 1px solid black ;
+  border: 2px solid rgb(96, 223, 96);
+  margin:20px;
+  height:600px;
+     
+  }
+.cajapediruno{
+  h1{ font-size: 20rem ;
+    font-weight: 200;
+    font-stretch: expanded;
+}
+&__pcaja{
+font-size: 6rem;
+}
+ h2.pedilo{
+  font-size: 500px;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
  }
  .cajapedirdos{
-   p{
-    font-size:13rem;
+  p{
+   font-size:13rem;
+  }
+
+}
+.button-l{
+   display:flex;
+   align-items: center;
+   font-size: 4rem;
+   margin:20px;
+   padding: 20px;
+   width: 50px;
+   a{
+    text-decoration: none;
+    font-style:none;
    }
-
- }
-/*FIN hacetupedido.html*/
-
- 
+}
+}
+.pcaja{
+  width: 90%;
+  p{
+    font-size:3rem;
+    text-align: center;
+  }
+}
+.boldie{
+ font-style:bold;   
+}
+/*FIN hacetupedido.html*/ 
